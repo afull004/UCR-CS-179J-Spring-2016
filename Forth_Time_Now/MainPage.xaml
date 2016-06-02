@@ -1,0 +1,63 @@
+﻿<Page x:Name="Page"
+    x:Class="Forth_Time_Now.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Forth_Time_Now"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="800" Width="800">
+
+    <Grid Name="Grid1" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.5,0.5" Margin="-13.139,-0.264,-73.703,0" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="1024" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1280">
+        <Grid.RenderTransform>
+            <CompositeTransform Rotation="-0.518"/>
+        </Grid.RenderTransform>
+        <TextBox x:Name="textBox0" HorizontalAlignment="Left" Margin="10,693,0,-0.034" TextWrapping="Wrap" Text="Memory Address: 0" VerticalAlignment="Top" Width="171" TextChanged="textBox_TextChanged_2" IsReadOnly="True"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="10,661,0,0" TextWrapping="Wrap" Text="Memory Address: 4" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="10,629,0,0" TextWrapping="Wrap" Text="Memory Address: 8" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="10,597,0,0" TextWrapping="Wrap" Text="Memory Address: 12" VerticalAlignment="Top" Width="171" TextChanged="textBox3_TextChanged" IsReadOnly="True"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Margin="10,565,0,0" TextWrapping="Wrap" Text="Memory Address: 16" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="10,533,0,0" TextWrapping="Wrap" Text="Memory Address: 20" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Margin="10,501,0,0" TextWrapping="Wrap" Text="Memory Address: 24" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Margin="10,469,0,0" TextWrapping="Wrap" Text="Memory Address: 28" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox8" HorizontalAlignment="Left" Margin="10,437,0,0" TextWrapping="Wrap" Text="Memory Address: 32" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox9" HorizontalAlignment="Left" Margin="10,405,0,0" TextWrapping="Wrap" Text="Memory Address: 36" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox10" HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="Memory Address: 40" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox11" HorizontalAlignment="Left" Margin="10,341,0,0" TextWrapping="Wrap" Text="Memory Address: 44" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox12" HorizontalAlignment="Left" Margin="10,309,0,0" TextWrapping="Wrap" Text="Memory Address: 48" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox13" HorizontalAlignment="Left" Margin="10,277,0,0" TextWrapping="Wrap" Text="Memory Address: 52" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox14" HorizontalAlignment="Left" Margin="10,245,0,0" TextWrapping="Wrap" Text="Memory Address: 56" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox15" HorizontalAlignment="Left" Margin="10,213,0,0" TextWrapping="Wrap" Text="Memory Address: 60" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox16" HorizontalAlignment="Left" Margin="10,181,0,0" TextWrapping="Wrap" Text="Memory Address: 64" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox17" HorizontalAlignment="Left" Margin="10,149,0,0" TextWrapping="Wrap" Text="Memory Address: 68" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox18" HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" Text="Memory Address: 72" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox19" HorizontalAlignment="Left" Margin="10,85,0,0" TextWrapping="Wrap" Text="Memory Address: 76" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox20" HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" Text="Memory Address: 80" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBox x:Name="textBox21" HorizontalAlignment="Left" Margin="10,21,0,0" TextWrapping="Wrap" Text="Memory Address: 84" VerticalAlignment="Top" Width="171" IsReadOnly="True"/>
+        <TextBlock x:Name="textBlock0" HorizontalAlignment="Left" Margin="181,693,0,-0.034" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="32" Width="350"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="181,661,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock15" HorizontalAlignment="Left" Margin="181,213,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="181,629,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock17" HorizontalAlignment="Left" Margin="181,149,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock21" HorizontalAlignment="Left" Margin="181,21,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock14" HorizontalAlignment="Left" Margin="181,245,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="181,597,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="181,565,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="181,533,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="181,501,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock13" HorizontalAlignment="Left" Margin="181,277,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="181,469,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32" SelectionChanged="textBlock2_Copy10_SelectionChanged"/>
+        <TextBlock x:Name="textBlock19" HorizontalAlignment="Left" Margin="181,85,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock16" HorizontalAlignment="Left" Margin="181,181,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock20" HorizontalAlignment="Left" Margin="181,53,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock18" HorizontalAlignment="Left" Margin="181,117,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="350" Height="32"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Left" Margin="181,437,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Left" Margin="181,405,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock10" HorizontalAlignment="Left" Margin="181,373,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock11" HorizontalAlignment="Left" Margin="181,341,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBlock12" HorizontalAlignment="Left" Margin="181,309,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="200" Height="32"/>
+        <TextBlock x:Name="textBoxArray" HorizontalAlignment="Left" Height="416" Margin="497,213,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="375" FontSize="200"/>
+        <TextBlock x:Name="textBoxArrayHeader" HorizontalAlignment="Left" Height="96" Margin="497,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="375" FontSize="30"/>
+        <TextBlock x:Name="textBlockError" HorizontalAlignment="Left" Height="99" Margin="531,693,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="351" FontSize="25" FontWeight="Bold" Foreground="#FFFF0C0C"/>
+
+    </Grid>
+</Page>
