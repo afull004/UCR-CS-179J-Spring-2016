@@ -1,0 +1,95 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+
+    <Border Padding="10">
+        <StackPanel Background="#eee">
+
+            <TextBox x:Name="Equation" IsReadOnly="True" BorderThickness="0" Height="70" TextAlignment="Right" FontSize="20" Background="#eee"/>
+            <TextBox x:Name="Display" IsReadOnly="True" BorderThickness="0" Height="70" FontSize="40" TextAlignment="Right" FontWeight="SemiBold"  Background="#eee"/>
+
+
+            <Grid Margin="0 10" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="CE" Click="CE_Click" FontSize="20" Grid.Column="0" Background="#fff" Margin="0 0 10 0" Content="CE"/>
+                <Button x:Name="C" Click="C_Click" FontSize="20" Grid.Column="1" Background="#fff" Margin="0 0 10 0" Content="C"/>
+                <Button x:Name="BackSpace" Click="BackSpace_Click" FontSize="20" Grid.Column="2" Background="#fff" Margin="0 0 10 0" Content="BKSPC"/>
+                <Button x:Name="Divide" Click="Divide_Click" FontSize="20" Grid.Column="3" Background="#fff" Margin="0 0 0 0" Content="/"/>
+
+            </Grid>
+
+            <Grid Margin="0 10" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="Seven" Click="Seven_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="0" Background="#fff" Margin="0 0 10 0" Content="7"/>
+                <Button x:Name="Eight" Click="Eight_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="1" Background="#fff" Margin="0 0 10 0" Content="8"/>
+                <Button x:Name="Nine" Click="Nine_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="2" Background="#fff" Margin="0 0 10 0" Content="9"/>
+                <Button x:Name="Multiply" Click="Multiply_Click" FontSize="20" Grid.Column="3" Background="#fff" Margin="0 0 0 0" Content="X"/>
+
+            </Grid>
+
+            <Grid Margin="0 10" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="Four" Click="Four_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="0" Background="#fff" Margin="0 0 10 0" Content="4"/>
+                <Button x:Name="Five" Click="Five_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="1" Background="#fff" Margin="0 0 10 0" Content="5"/>
+                <Button x:Name="Six" Click="Six_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="2" Background="#fff" Margin="0 0 10 0" Content="6"/>
+                <Button x:Name="Minus" Click="Minus_Click" FontSize="20" Grid.Column="3" Background="#fff" Margin="0 0 0 0" Content="-"/>
+
+            </Grid>
+
+            <Grid Margin="0 10" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="One" Click="One_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="0" Background="#fff" Margin="0 0 10 0" Content="1"/>
+                <Button x:Name="Two" Click="Two_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="1" Background="#fff" Margin="0 0 10 0" Content="2"/>
+                <Button x:Name="Three" Click="Three_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="2" Background="#fff" Margin="0 0 10 0" Content="3"/>
+                <Button x:Name="Plus" Click="Plus_Click" FontSize="20" Grid.Column="3" Background="#fff" Margin="0 0 0 0" Content="+"/>
+
+            </Grid>
+
+            <Grid Margin="0 10" Height="70">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="Negative" Click="Negative_Click" FontSize="20" Grid.Column="0" Background="#fff" Margin="0 0 10 0" Content="+/-"/>
+                <Button x:Name="Zero" Click="Zero_Click" FontWeight="SemiBold" FontSize="20" Grid.Column="1" Background="#fff" Margin="0 0 10 0" Content="0"/>
+                <Button x:Name="Point" Click="Point_Click" FontSize="20" Grid.Column="2" Background="#fff" Margin="0 0 10 0" Content="."/>
+                <Button x:Name="Equal" Click="Equal_Click" FontSize="20" Grid.Column="3" Background="#fff" Margin="0 0 0 0" Content="="/>
+
+            </Grid>
+
+        </StackPanel>
+    </Border>
+    
+</Window>
